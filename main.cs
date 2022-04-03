@@ -19,12 +19,12 @@ class Program
         Console.WriteLine("Enter the a base of the trapezoid.");
         aBaseOfTrapezoid = (Convert.ToInt32(Console.ReadLine()));
         Console.Write("Enter the b base of the trapezoid. ");
-        bBaseOfTrapezoid =(Convert.ToInt32(Console.ReadLine()));
+        bBaseOfTrapezoid = (Convert.ToInt32(Console.ReadLine()));
         Console.Write("Enter the height of the trapezoid. ");
-        heightOfTrapezoid =(Convert.ToInt32(Console.ReadLine()));
+        heightOfTrapezoid = (Convert.ToInt32(Console.ReadLine()));
 
         Console.WriteLine("");
-        Console.WriteLine("The Area of the trapezoid is: " + heightOfTrapezoid *(aBaseOfTrapezoid + bBaseOfTrapezoid / 2));
+        Console.WriteLine("The Area of the trapezoid is: " + heightOfTrapezoid * (aBaseOfTrapezoid + bBaseOfTrapezoid / 2));
 
         Console.WriteLine("\nDone.");
     }
