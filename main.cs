@@ -9,7 +9,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        // This program tells user if they can enter the museum
+        // This program calculates the area 
         int aBaseOfTrapezoid;
         int bBaseOfTrapezoid;
         int heightOfTrapezoid;
@@ -17,7 +17,7 @@ class Program
         Console.WriteLine("This program calculates the area of a trapezoid");
         Console.WriteLine("");
 
-        Console.WriteLine("Enter the a base of the trapezoid.");
+        Console.WriteLine("Enter the a base of the trapezoid. ");
         aBaseOfTrapezoid = (Convert.ToInt32(Console.ReadLine()));
         Console.Write("Enter the b base of the trapezoid. ");
         bBaseOfTrapezoid = (Convert.ToInt32(Console.ReadLine()));
