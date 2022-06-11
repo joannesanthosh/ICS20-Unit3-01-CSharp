@@ -13,7 +13,6 @@ class Program
         int aBaseOfTrapezoid;
         int bBaseOfTrapezoid;
         int heightOfTrapezoid;
-      
         Console.WriteLine("This program calculates the area of a trapezoid");
         Console.WriteLine("");
 
